@@ -17,12 +17,22 @@ public class Product {
     }
 
     public Long getId(){
-        return this.id;
+        return id;
     }
     public String getName(){
-        return this.name;
+        return name;
     }
     public double getPrice(){
-        return this.price;
+        return price;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
