@@ -26,13 +26,4 @@ public class ProductController {
         return productService.addProduct(product);
     }
 
-    @DeleteMapping("/{id}")
-    public void deleteProduct(@PathVariable Long id) {
-        productService.deleteProduct(id);
-    }
-
-    @GetMapping("/search")
-    public List<Product> search(@RequestParam String name) {
-        return productService.findByName(name);
-    }
 }

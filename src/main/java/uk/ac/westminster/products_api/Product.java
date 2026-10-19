@@ -7,7 +7,9 @@ public class Product {
 
 
     // constructor 1
-    // public Product(){}
+    public Product(){
+
+    }
 
     // constructor 2 with 3 parameters
     public Product (Long id, String name, double price) {
